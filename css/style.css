@@ -2,5 +2,316 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow-x: none;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(243, 21, 21);
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;   
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.nav-menu {
+    width: 1440px;
+    margin: auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: fixed;
+    top: 0;
+}
+
+.log {
+    margin-left: 12%;
+    padding-bottom: 1%;
+
+}
+
+.log p {
+    color: white;
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.nav-ul {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 3%;
+    gap: 30px;
+
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.fone {
+    width: 1440px;
+    margin: auto;
+    background-image: url(../img/blim.png);
+    background-repeat: no-repeat;
+}
+
+.fonim {
+    margin: auto;
+    width: 1440px;
+}
+
+.blogc {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 27% 0 17.5% 0;
+}
+
+.blogc h1 {
+    font-size: 60px;
+    line-height: 0.7;
+    color: white;
+}
+
+.blogc p {
+    color: white;
+    font-size: 24px;
+    margin-top: 3%;
+    line-height: 1.4;
+}
+
+.btn1 {
+    width: 160px;
+    height: 46px;
+    background: white;
+    border: 0;
+    display: flex;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-left: 43%;
+}
+
+.blog2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 3%;
+    margin: auto;
+}
+
+.blg {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+.tgx {
+    width: 50%;
+    display: flex;
+    padding-left: 6%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tgx h1 {
+    font-size: 42px;
+    line-height: 40px;
+    color: red;
+    margin-bottom: 1%;
+    text-align: center;
+    display: flex;
+    padding-left: 26%;
+}
+
+.tgx p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: red;
+    display: flex;
+    text-align: flex-start;
+}
+
+.btn2 {
+    width: 160px;
+    height: 46px;
+    background: red;
+    border: 0;
+    display: flex;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+.blog3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 6%;
+    margin: auto;
+}
+
+.blog3 h1 {
+    font-size: 56px;
+    line-height: 40px;
+    color: red;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.blog3 p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: red;
+    text-align: center;
+}
+
+.blog4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 6%;
+    margin: auto;
+}
+
+.card1 {
+    padding-top: 2%;
+    width: 30%;
+    display: flex;
+    margin: auto;
+    border-radius: 16px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card1 h1 {
+    font-size: 56px;
+    line-height: 40px;
+    color: red;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.cd1 {
+    font-size: 32px;
+    line-height: 40px;
+    color: red;
+    text-align: center;
+}
+
+.ck1 {
+    font-size: 24px;
+    line-height: 40px;
+    color: red;
+    text-align: center;
+}
+
+.card2 {
+    padding-top: 2%;
+    width: 30%;
+    display: flex;
+    margin: auto;
+    border-radius: 16px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card2 h1 {
+    font-size: 56px;
+    line-height: 40px;
+    color: red;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.cd2 {
+    font-size: 32px;
+    line-height: 40px;
+    color: red;
+    text-align: center;
+}
+
+.ck2 {
+    font-size: 24px;
+    line-height: 40px;
+    color: red;
+    text-align: center;
+}
+
+.card3 {
+    padding-top: 4%;
+    margin-top: 4%;
+    width: 30%;
+    display: flex;
+    margin: auto;
+    border-radius: 16px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card3 h1 {
+    font-size: 56px;
+    line-height: 40px;
+    color: red;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.cd3 {
+    font-size: 32px;
+    line-height: 40px;
+    color: red;
+    text-align: center;
+}
+
+.ck3 {
+    font-size: 24px;
+    line-height: 40px;
+    color: red;
+    text-align: center;
 }
