@@ -47,7 +47,6 @@ body {
 .log {
     margin-left: 12%;
     padding-bottom: 1%;
-
 }
 
 .log p {
@@ -127,7 +126,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding-top: 3%;
+    padding-top: 10%;
     margin: auto;
 }
 
@@ -341,11 +340,177 @@ body {
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
-    margin-top: 4%;
+    margin-top: 7%;
 }
 
 .nda {
     margin: auto;
     width: 275px;
     height: 275px;
+}
+
+.blog6 {
+    margin: auto;
+    width: 1440px;
+    padding-top: 8%;
+}
+
+.blm6 h1 {
+    font-size: 60px;
+    line-height: 40px;
+    color: red;
+    margin-bottom: 1%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.blm6 p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: red;
+    text-align: center;
+    padding-top: 4%;
+    line-height: 1.7;
+}
+
+.blm6form {
+    padding-top: 6%;
+    margin: auto;
+}
+
+.blm6form h4 {
+    font-size: 24px;
+    line-height: 40px;
+    color: red;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.tbl6 {
+    padding-top: 2%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 3%;
+}
+
+.text {
+    display: flex;
+    width: 255px;
+    height: 35px;
+    outline:none;
+    font-size: 18px;
+    border-radius: 16px;
+    border: 1px solid red;
+    padding-left: 2%;
+    color: red;
+}
+
+.email {
+    display: flex;
+    width: 255px;
+    height: 35px;
+    outline:none;
+    font-size: 18px;
+    border-radius: 16px;
+    border: 1px solid red;
+    padding-left: 2%;
+    color: red;
+}
+
+.area {
+    padding-left: 2%;
+    font-size: 18px;
+    border-radius: 16px;
+    border: 1px solid red;
+    padding-top: 2%;
+    color: red;
+}
+
+
+.form-group3 {
+    height: 175px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 4%;
+}
+
+.btn4 {
+    width: 160px;
+    height: 46px;
+    background: red;
+    border: 0;
+    display: flex;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+footer {
+    margin-top: 5%;
+    width: 1440px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fottext {
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 50%;
+    margin: auto;
+}
+
+.iv {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.copy {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.vvk {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
+    align-self: center;
+    gap: 30px;
+
+}
+
+.vrndd {
+    width: 80px;
+    height: 80px;
 }
